@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationListener=\
+com.asarkar.spring.test.mockserver.MockServerApplicationListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.asarkar.spring.test.mockserver.MockServerAutoConfiguration
