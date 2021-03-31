@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration
         "org.mockserver.netty.MockServer"
     ]
 )
-class MockServerAutoConfiguration {
+open class MockServerAutoConfiguration {
     @Bean
     fun mockserverLifecycle(): MockServerLifecycle {
         return MockServerLifecycle()

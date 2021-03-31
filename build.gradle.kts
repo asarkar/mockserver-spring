@@ -7,6 +7,7 @@ plugins {
     id("org.jetbrains.dokka")
     id("org.jlleitschuh.gradle.ktlint")
     id("io.github.gradle-nexus.publish-plugin")
+    id("org.jetbrains.kotlin.plugin.spring")
     signing
 }
 

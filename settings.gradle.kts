@@ -16,6 +16,7 @@ pluginManagement {
         id("org.jlleitschuh.gradle.ktlint") version ktlintVersion
         id("io.github.gradle-nexus.publish-plugin") version nexusPluginVersion
         id("org.springframework.boot") version springBootVersion
+        id("org.jetbrains.kotlin.plugin.spring") version kotlinVersion
     }
 }
 
