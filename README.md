@@ -7,9 +7,7 @@ Requires Java 8 or later. Uses [mockserver](https://github.com/mock-server/mocks
 
 ## Installation
 
-You can find the latest version on Bintray. [ ![Download](https://api.bintray.com/packages/asarkar/mvn/com.asarkar.spring%3Amockserver-spring/images/download.svg) ](https://bintray.com/asarkar/mvn/com.asarkar.spring%3Amockserver-spring/_latestVersion)
-
-It is also on Maven Central and jcenter.
+You can find the latest version on [Maven Central](https://search.maven.org/search?q=g:com.asarkar.spring%20AND%20a:mockserver-spring).
 
 ## Usage
 
@@ -60,8 +58,8 @@ See KDoc for more details.
 ## Contribute
 
 This project is a volunteer effort. You are welcome to send pull requests, ask questions, or create issues.
-If you like it, you can help by spreading the word!
+If you like it, you can help by spreading the word and "Starring" the GitHub repo!
 
 ## License
 
-Copyright 2020 Abhijit Sarkar - Released under [Apache License v2.0](LICENSE).
+Copyright 2021 Abhijit Sarkar - Released under [Apache License v2.0](LICENSE).
