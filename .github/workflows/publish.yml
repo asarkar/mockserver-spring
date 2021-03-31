@@ -33,5 +33,10 @@ jobs:
         with:
           java-version: 8
 
-      - name: Publish to Bintray
-        run: ./gradlew -P bintrayUser=${{ secrets.BINTRAY_USER }} -P bintrayKey=${{ secrets.BINTRAY_KEY }} bintrayUpload
+      - name: Publish to Maven Central
+        run: |
+          ./gradlew -P signingKey=${{ secrets.SIGNING_KEY }} \
+            -P signingPassword=${{ secrets.SIGNING_PASSWORD }} \
+            -P sonatypeUsername=${{ secrets.SONATYPE_USERNAME }} \
+            -P sonatypePassword=${{ secrets.SONATYPE_PASSWORD }} \
+            publishToSonatype closeAndReleaseSonatypeStagingRepository
